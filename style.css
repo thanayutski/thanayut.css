@@ -73,7 +73,34 @@ div{
     display: inline-block;
     font-size: 20px;
     padding: 30px;
+
     
+}
+
+img{
+    border-radius: 30%;
+    width: 200px;
+    height: 300px;
+    opacity:0.7;
+}
+div.hover{
+    width: 100px;
+    height: 100px;
+    background-color: #fd0000;
+    transition: width 2s;
+
+}
+div.hover:hover{
+    width: 300px;
+    background-color: #09ff00;
+}
+
+.button{
+    background-color: #32f32b;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
 }
 
 
